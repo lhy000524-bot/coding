@@ -1,0 +1,35 @@
+@import 'tailwindcss';
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  background: #0b0e14;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, 'Segoe UI', Roboto, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+  background: #0b0e14;
+  color: #e5e7eb;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #12151d;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2e3a;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #383e4e;
+}
