@@ -18,9 +18,9 @@ npm run dev
 
 ## 데이터
 
-`public/stock_data.csv`는 실제 주가가 아닌, 데모용으로 생성된 샘플 데이터입니다
-(컬럼: `date,ticker,name,open,high,low,close,volume`). 같은 형식이라면 다른 CSV로
-교체해도 그대로 동작합니다.
+`public/stock_data.csv`에는 AAPL, MSFT, GOOGL, TSLA, NVDA 5개 종목의 2025-06-01 ~
+2025-06-12 일별 시세가 들어 있습니다 (컬럼: `date,ticker,name,open,high,low,close,volume`).
+같은 형식이라면 다른 CSV로 교체해도 그대로 동작합니다.
 
 ## 기능
 

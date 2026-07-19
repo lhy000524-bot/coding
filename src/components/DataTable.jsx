@@ -41,7 +41,7 @@ export default function DataTable({ rows }) {
           type="text"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
-          placeholder="날짜 검색 (예: 2026-03)"
+          placeholder="날짜 검색 (예: 2025-06)"
           className="rounded-md border border-white/10 bg-[#0d0d0d] px-3 py-1.5 text-xs text-white placeholder:text-[#898781] outline-none focus:border-blue-500/50 w-full sm:w-56"
         />
       </div>
