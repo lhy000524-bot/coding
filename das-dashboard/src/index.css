@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Pretendard", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  --color-navy: #1f3a60;
+  --color-navy-mid: #34608f;
+  --color-navy-light: #7c9bc0;
+  --color-gray: #596571;
+  --color-danger: #c0392b;
+  --color-bg-page: #f7f9fc;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg-page);
+  font-family: var(--font-sans);
+  color: var(--color-navy);
+}
